@@ -1,0 +1,43 @@
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  background-color: #282c34;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+}
+.navbar__initials {
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-right: 60px;
+}
+
+.navbar__initials > p {
+  color: white;
+}
+
+.navbar__pages {
+  display: flex;
+
+  margin-right: 100px;
+}
+
+.navbar__pagesProject {
+  color: white;
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+.navbar__pagesAboutMe {
+  color: white;
+  margin-left: 10px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+/* .navbar__pages > a > p {
+  color: white;
+  margin-left: 10px;
+  margin-right: 100px;
+  text-decoration: none;
+} */
