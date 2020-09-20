@@ -165,13 +165,13 @@ ul {
 }
 
 @media (max-width: 525px) {
-  .Title {
+  .aboutme__title {
     font-size: 42px;
   }
 }
 
 @media (min-width: 937.5px) {
-  .Title {
+  .aboutme__title {
     font-size: 75px;
   }
 }
@@ -196,7 +196,7 @@ ul {
 }
 
 @media (max-width: 767px) {
-  .l-Wrapper--reset\@sm-down {
+  .aboutme__container--reset\@sm-down {
     width: 100%;
   }
 }
@@ -204,42 +204,45 @@ ul {
 .aboutme__titleContainer {
   margin-top: 6.4rem;
   margin-bottom: 3.2rem;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap; */
 }
 
-/* .aboutme__name {
+.aboutme__name,
+.aboutme__contact {
   margin-top: 3.2rem;
   margin-bottom: 3.2rem;
-} */
+}
 
 /* .aboutme__contact {
+  text-align: right;
 } */
 
 @media (min-width: 544px) {
-  .l-Header {
+  .aboutme__titleContainer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
 
-  .l-Header-col:last-child:not(:first-child) {
+  .aboutme__contact:last-child:not(:first-child) {
     text-align: right;
   }
 }
 
-.l-Section {
+.aboutme__section {
   margin-top: 6.4rem;
 }
 
-.l-Section + .l-Section {
+.aboutme__section + .aboutme__section {
   position: relative;
   border-top: 1px solid #ddd;
 }
 
-.l-Section + .l-Section:before {
+.aboutme__section + .aboutme__section:before {
   content: "";
   font-size: 50px;
   font-size: 8vw;
@@ -250,42 +253,42 @@ ul {
 }
 
 @media (max-width: 525px) {
-  .l-Section + .l-Section:before {
+  .aboutme__section + .aboutme__section:before {
     font-size: 42px;
   }
 }
 
 @media (min-width: 937.5px) {
-  .l-Section + .l-Section:before {
+  .aboutme__section + .aboutme__section:before {
     font-size: 75px;
   }
 }
 
 .l-Section-title,
-.l-Section-content {
+.aboutme__sectionContent {
   margin-top: 3.2rem;
 }
 
-.l-Section-content > :first-child,
-.l-Section-content > :first-child > h3 {
+.aboutme__sectionContent > :first-child,
+.aboutme__sectionContent > :first-child > h3 {
   margin-top: 0;
 }
 
-.l-Section-content > p:first-child,
-.l-Section-content > ul:first-child {
+.aboutme__sectionContent > p:first-child,
+.aboutme__sectionContent > ul:first-child {
   margin-top: 0.3rem;
 }
 
-.l-Section-group {
+.aboutme__sectionGroup {
   display: inline;
 }
 
 @media (min-width: 768px) {
-  .l-Section {
+  .aboutme__section {
     display: flex;
   }
 
-  .l-Section:before {
+  .aboutme__section:before {
     display: none;
   }
 
@@ -405,7 +408,7 @@ a.Navbar-btn:hover {
     font-size: 50%;
   }
 
-  .l-Wrapper {
+  .aboutme__container {
     width: 100%;
     max-width: none;
   }
@@ -415,20 +418,20 @@ a.Navbar-btn:hover {
     display: none;
   }
 
-  .l-Header,
-  .l-Header-col {
+  .aboutme__titleContainer,
+  .aboutme__contact {
     margin-top: 0;
   }
 
   .l-Footer,
-  .l-Section {
+  .aboutme__section {
     margin-top: 3.2rem;
   }
 
   h3,
   .h3,
   .l-Section-title,
-  .l-Section-content {
+  .aboutme__sectionContent {
     margin-top: 1.8rem;
   }
 
@@ -446,17 +449,17 @@ a.Navbar-btn:hover {
     text-align: right;
   }
 
-  .l-Section {
+  .aboutme__section {
     position: relative;
     padding-top: 5px;
     border-top: 1px solid #ddd;
   }
 
-  .l-Section:before {
+  .aboutme__section:before {
     display: none;
   }
 
-  .l-Section:after {
+  .aboutme__section:after {
     content: "";
     position: absolute;
     top: -1px;
@@ -465,7 +468,7 @@ a.Navbar-btn:hover {
     width: 4rem;
   }
 
-  .l-Section-group {
+  .aboutme__sectionGroup {
     display: block;
     page-break-inside: avoid;
   }
