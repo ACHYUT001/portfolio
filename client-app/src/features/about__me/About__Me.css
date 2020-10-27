@@ -306,11 +306,6 @@ ul {
   padding-top: 3.2rem;
 }
 
-.l-Footer a {
-  text-decoration: none;
-  display: inline-block;
-}
-
 .l-Footer a:not(:last-child) {
   margin-right: 1.6rem;
 }

@@ -3,13 +3,27 @@ import { DefaultButton } from "office-ui-fabric-react";
 
 export const HeroContainer = styled.div`
   display: flex;
-  color: orange;
-  justify-content: space-evenly;
+  justify-content: center;
   font-size: 3em;
-  margin: 2em 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   padding: 2px;
   & > a {
     font-size: 1em;
+  }
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 720px) {
+    font-size: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  @media (max-width: 615px) {
+    font-size: 1.8em;
   }
 `;
 
@@ -28,9 +42,35 @@ export const HeroTitle = styled.div`
 export const HeroLinks = styled.div`
   display: flex;
   justify-content: center;
+  margin-left: 0.7em;
+  margin-righ: 0.7m;
 `;
 
-export const PageBody = styled.div`
+export const PageBody = styled.article`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 2em 2em;
+  width: 80%;
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
+export const Side = styled.aside``;
+
+export const Heading = styled.h1``;
+
+export const Para = styled.p`
+  text-align: left;
+`;
+
+export const VerticalLine = styled.div`
+  border-left: 6px black;
+  height: 200px;
+`;
+
+export const Section = styled.section`
+  text-align: left;
 `;

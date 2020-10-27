@@ -216,9 +216,6 @@ const Projects = () => {
           </Route> */}
         </Switch>
       </PageBody>
-
-      <div className="content"></div>
-      <h2>Projects</h2>
     </Wrapper>
   );
 };
