@@ -13,7 +13,15 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          <Route path="/projects">
+          <Route
+            path="/projects"
+            // {[
+            //   "/projects",
+            //   "/projects/letschat",
+            //   "/projects/amazonclone",
+            //   "/projects/portfolio",
+            // ]}
+          >
             <Projects />
           </Route>
           <Route path="/aboutme">
