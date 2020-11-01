@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 import "./About__Me.css";
 const About__Me = () => {
@@ -215,7 +216,9 @@ const About__Me = () => {
         </section>
       </article>
 
-      <div className="aboutme__container u-keyline">
+      <Footer id="2" page="about_me" />
+
+      {/* <div className="aboutme__container u-keyline">
         <div className="l-Footer">
           <div className="l-Footer-col">
             <strong className="Tag">Achyut Upadhyay</strong>
@@ -225,7 +228,7 @@ const About__Me = () => {
             <a href="mailto:achyutpdh249@gmail.com">achyutpdh249@gmail.com</a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

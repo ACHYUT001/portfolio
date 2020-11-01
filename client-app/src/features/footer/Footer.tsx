@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Counter from "../../app/api/agent";
+import Ticker from "../ticker/Ticker";
 
 const FooterWrapper = styled.div`
   width: 100%;
@@ -62,8 +64,8 @@ const LineContainer = styled.div`
 
   padding-top: 3.2rem;
 
-  & a:not(:last-child) {
-    margin-right: 1.6rem;
+  & a (:last-child) {
+    margin-left: 0.6rem;
   }
 
   & a:hover {
@@ -76,17 +78,36 @@ const LineContent = styled.div`
   padding-right: 0.8rem;
 `;
 
-const Footer = () => {
+interface IProps {
+  id: string;
+  page: string;
+}
+
+const Footer: React.FC<IProps> = ({ id, page }) => {
+  const [counter, setCounter] = useState<string>("");
+
+  useEffect(() => {
+    getPageInfo(page, id);
+  }, []);
+
+  const getPageInfo = async (page: string, id: string) => {
+    await Counter.get(id, page).then((val) => setCounter(val));
+  };
+
   return (
     <FooterWrapper>
       <LineContainer>
         <LineContent>
           <HighLight>
-            <strong> Achyut Upadhyay</strong>
+            <Link to="/">
+              <strong> Achyut Upadhyay</strong>
+            </Link>
           </HighLight>
         </LineContent>
         <LineContent>
-          <Link to="/">achyutupadhyay.com</Link>
+          {counter && <Ticker counter={counter} id={id} page={page} />}
+        </LineContent>
+        <LineContent>
           <a href="mailto:achyutpdh249@gmail.com">achyutpdh249@gmail.com</a>
         </LineContent>
       </LineContainer>

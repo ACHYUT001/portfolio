@@ -49,7 +49,7 @@ const PortfolioPage = () => {
           <li>Cosmos DB</li>
         </ol>
       </Section>
-      <Footer />
+      <Footer id="5" page="projects/portfolio" />
     </PageBody>
   );
 };

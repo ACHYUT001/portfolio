@@ -32,6 +32,7 @@ import {
 import { Link } from "react-router-dom";
 import { mergeStyles } from "@fluentui/react";
 import Home from "../home/Home";
+import Footer from "../footer/Footer";
 
 const iconClass = mergeStyles({
   height: 50,
@@ -183,7 +184,7 @@ const Projects = () => {
           content={rightArrow.name}
           // This id is used on the tooltip itself, not the host
           // (so an element with this id only exists when the tooltip is shown)
-          id={leftToolTipId}
+          id={rightToolTipId}
 
           // styles={hostStyles}
         >

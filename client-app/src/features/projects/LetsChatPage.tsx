@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../footer/Footer";
 import { Heading, PageBody, Para, Section, Side } from "./StyledPage";
+import AnimatedNumber from "react-animated-numbers";
 
 const LetsChatPage = () => {
   return (
@@ -51,7 +52,7 @@ const LetsChatPage = () => {
           <li>Azure Blob Storage</li>
         </ol>
       </Section>
-      <Footer />
+      <Footer id="3" page="projects/letschat" />
     </PageBody>
   );
 };

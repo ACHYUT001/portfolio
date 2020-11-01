@@ -40,7 +40,7 @@ const AmazonClonePage = () => {
           <li>Authentication</li>
         </ol>
       </Section>
-      <Footer />
+      <Footer id="4" page="projects/amazon_clone" />
     </PageBody>
   );
 };

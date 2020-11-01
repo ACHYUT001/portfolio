@@ -1,12 +1,21 @@
 .home__container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+
   justify-content: space-evenly;
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
   max-width: 1200px;
   width: 90%;
+}
+
+.left__panel {
+  margin: 10em 0.1em;
+}
+
+.right__panel {
+  margin: 10em 0.5em;
 }
 
 .home__buttons {
