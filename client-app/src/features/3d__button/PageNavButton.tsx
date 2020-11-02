@@ -28,18 +28,38 @@ const Button = styled.button`
   width: 20ch;
   margin: 1em 1em;
 
+  transition: all 0.5s;
+
   &:hover {
     background-color: black;
     border-color: transparent;
 
     color: white;
   }
+
+  & span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+  }
+
+  &:hover span {
+    padding-right: 25px;
+  }
+
+  &:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 `;
 
 const PageNavButton: React.FC<IProps> = ({ target, name }) => {
   return (
     <Link to={target}>
-      <Button>{name}</Button>
+      <Button>
+        <span>{name}</span>
+      </Button>
     </Link>
   );
 };
