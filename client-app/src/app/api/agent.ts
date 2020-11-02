@@ -13,16 +13,8 @@ export const sleep = (ms: number) => (response: AxiosResponse) =>
 const responseBody = (response: AxiosResponse) => response.data;
 
 const requests = {
-  get: (url: string) =>
-    (url.includes("projects/")
-      ? axios.get(url.replace("projects/", ""))
-      : axios.get(url)
-    ).then(responseBody),
-  put: (url: string) =>
-    (url.includes("projects/")
-      ? axios.put(url.replace("projects/", ""))
-      : axios.put(url)
-    ).then(responseBody),
+  get: (url: string) => axios.get(url).then(responseBody),
+  put: (url: string) => axios.put(url).then(responseBody),
 };
 
 const Counter = {
