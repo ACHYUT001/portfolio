@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../footer/Footer";
-import { Heading, PageBody, Para, Section, Side } from "./StyledPage";
-import AnimatedNumber from "react-animated-numbers";
+import { Heading, PageBody, Para, Section } from "./StyledPage";
 
 const LetsChatPage = () => {
   return (

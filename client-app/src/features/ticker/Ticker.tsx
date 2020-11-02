@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Counter from "../../app/api/agent";
 import RetroHitCounter from "react-retro-hit-counter";
-import AnimatedNumber from "react-animated-numbers";
+
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -27,10 +27,6 @@ const Ticker: React.FC<IProps> = ({ counter, id, page }) => {
 
   return (
     <Wrapper>
-      {/* <AnimatedNumber
-        animateToNumber={counter}
-        config={{ tension: 89, friction: 40 }}
-      /> */}
       <RetroHitCounter
         hits={counter}
         size={20}

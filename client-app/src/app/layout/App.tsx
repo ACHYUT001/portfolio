@@ -1,20 +1,11 @@
-import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
+import React from "react";
+
 import "./App.css";
 import NavBar from "../../features/navbar/NavBar";
 import Home from "../../features/home/Home";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useRouteMatch,
-  useLocation,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Projects from "../../features/projects/Projects";
 import About__Me from "../../features/about__me/About__Me";
-import Counter from "../api/agent";
-import { IPageInfo } from "../model/pageinfo";
 
 function App() {
   return (

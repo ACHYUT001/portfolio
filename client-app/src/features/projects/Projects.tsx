@@ -13,8 +13,6 @@ import "./Projects.css";
 import {
   DefaultButton,
   IconButton,
-  IIconProps,
-  Image,
   initializeIcons,
 } from "office-ui-fabric-react";
 import {
@@ -31,8 +29,6 @@ import {
 } from "./StyledPage";
 import { Link } from "react-router-dom";
 import { mergeStyles } from "@fluentui/react";
-import Home from "../home/Home";
-import Footer from "../footer/Footer";
 
 const iconClass = mergeStyles({
   height: 50,

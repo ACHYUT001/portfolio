@@ -1,5 +1,4 @@
 import axios, { AxiosResponse } from "axios";
-import { IPageInfo } from "../model/pageinfo";
 
 axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 // axios.defaults.baseURL = "http://localhost:7071/api";

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { DefaultButton } from "office-ui-fabric-react";
 
 export const HeroContainer = styled.div`
   display: flex;

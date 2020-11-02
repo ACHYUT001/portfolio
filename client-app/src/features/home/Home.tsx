@@ -1,15 +1,6 @@
-import { DefaultButton, Spinner } from "@fluentui/react";
-import { count } from "console";
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Counter, { sleep } from "../../app/api/agent";
-import { IPageInfo } from "../../app/model/pageinfo";
-import {
-  Com,
-  HorizontalLine,
-  Para,
-  VerticalLine,
-} from "../projects/StyledPage";
+import React from "react";
+
+import { Com, HorizontalLine } from "../projects/StyledPage";
 import Ticker from "../ticker/Ticker";
 import Typing from "react-typing-animation";
 
