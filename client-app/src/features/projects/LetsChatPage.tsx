@@ -51,7 +51,7 @@ const LetsChatPage = () => {
           <li>Azure Blob Storage</li>
         </ol>
       </Section>
-      <Footer id="3" page="projects/letschat" />
+      <Footer id="6" page="letschat" />
     </PageBody>
   );
 };
