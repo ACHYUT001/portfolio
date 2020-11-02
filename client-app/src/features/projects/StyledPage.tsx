@@ -71,6 +71,16 @@ export const VerticalLine = styled.div`
   height: 200px;
 `;
 
+export const HorizontalLine = styled.hr`
+  border: 0.5px solid #ddd;
+  width: 60ch;
+`;
+
 export const Section = styled.section`
   text-align: left;
+`;
+
+export const Com = styled.span`
+  color: gray;
+  font-weight: 3;
 `;

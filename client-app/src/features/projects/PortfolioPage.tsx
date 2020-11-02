@@ -19,14 +19,23 @@ const PortfolioPage = () => {
       </Para>
       <Heading>My Learnings</Heading>
       <Para>
-        Starting out with learning React, this little project was able to cover
-        a lot of important bases for me like: React Hooks, React Functional
-        Components, routing with React Router DOM and how to use React Context
-        API for state management(still learning more about this 😋). I also
-        realised the tremendous amount of effort and consideration that goes
-        into creating a rich user experience even a simple change of a css
-        property like a margin on a button can change the look and feel of the
-        experience 🤩.
+        The key learnings that I'm proud of is the cool corousel I implemented
+        from scratch to protray my projects and the design of this project which
+        is hosted as a Azure Static Website supported by Azure Function to get
+        and update the counter values (stored in a Azure Cosmos DB collection)
+        keeping tabs on number of visitors for each page, displayed using a
+        retro counter ⌛ down below in the footer 👇👇. All-in-all I believe a
+        portfolio website is like an ever-evolving project which will grow as I
+        learn and grow 🐱‍🏍.
+        <br /> I have a few upgrades in mind like:
+        <ol>
+          <li>Dark Mode/Light Mode toggle</li>
+          <li>Using React Spring to make beautiful animations</li>
+          <li>
+            Adding a blog section 📝to the site to share my journey and
+            learnings ✍ 🎭
+          </li>
+        </ol>
       </Para>
 
       <Section>
@@ -37,7 +46,6 @@ const PortfolioPage = () => {
           <li>React Router</li>
           <li>React </li>
           <li>Fluent UI</li>
-          <li>React Transition Group</li>
           <li>React Styled Components</li>
           <li>HTML5</li>
           <li>CSS3</li>
