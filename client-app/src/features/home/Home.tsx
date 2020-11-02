@@ -79,7 +79,7 @@ const Home = () => {
 
         <PageNavButton target="/projects/letschat" name="Projects" />
 
-        <PageNavButton target="/about_me" name="About Me" />
+        <PageNavButton target="/aboutme" name="About Me" />
       </div>
     </div>
   );

@@ -57,19 +57,19 @@ const Projects = () => {
     {
       name: "LetsChat",
       link: `${match.url}/letschat`,
-      publicLink: "https://github.com/ACHYUT001/LetsChatwReactnDNCore",
+      publicLink: "https://l3tschat.azurewebsites.net",
       githubLink: "https://github.com/ACHYUT001/LetsChatwReactnDNCore",
     },
     {
       name: "Amazon Clone",
       link: `${match.url}/amazonclone`,
-      publicLink: "",
+      publicLink: "https://clone-7c4a1.web.app/",
       githubLink: "https://github.com/ACHYUT001/AmazonClone",
     },
     {
       name: "Portfolio",
       link: `${match.url}/portfolio`,
-      publicLink: "",
+      publicLink: "/",
       githubLink: "https://github.com/ACHYUT001/portfolio",
     },
   ];
