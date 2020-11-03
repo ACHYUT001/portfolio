@@ -22,6 +22,9 @@ const Line3 = styled.div`
   font-family: itc-avant-garde-gothic-pro;
   font-weight: 500;
   font-style:normal;
+  @media (max-width: 370) {
+    font-size: .6em;
+  }
 
 `;
 const LineContainer = styled.div`
@@ -30,8 +33,16 @@ const LineContainer = styled.div`
   justify-content: center;
   font-family: itc-avant-garde-gothic-pro;
 `;
-const Line1 = styled.h1``;
-const Line2 = styled.h1``;
+const Line1 = styled.h1`
+  @media (max-width: 370) {
+    font-size: 1vw;
+  }
+`;
+const Line2 = styled.h1`
+  @media (max-width: 370) {
+    font-size: 1vw;
+  }
+`;
 
 const Home = () => {
   return (

@@ -3,6 +3,7 @@
   flex-direction: column;
 
   justify-content: space-evenly;
+  margin-top: -10px;
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
@@ -43,6 +44,12 @@
 @media (max-width: 650px) {
   .home__avatar {
     height: 150px;
+  }
+}
+
+@media (max-width: 580px) {
+  .home__avatar {
+    height: 135px;
   }
 }
 

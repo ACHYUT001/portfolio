@@ -51,8 +51,21 @@ const Button = styled.button`
     right: 0;
   }
 
-  @media (max-width: 530px) {
-    font-size: 1.5rem;
+  @media (max-width: 670px) {
+    font-size: 1.7rem;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 520px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+    margin: 0.5em 0.5em;
   }
 `;
 
