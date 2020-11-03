@@ -18,16 +18,20 @@ const LetsChatPage = () => {
         </Para>
         <Heading>My Learnings</Heading>
         <Para>
-          <h4>Design</h4>
-          I learned alot during working on this project and the first key
-          learning was the importance of a robust design architecture for the
-          project.I tried to adopt Uncle Bob's Clean Architecture principles :
+          <h4>Design</h4>I learned alot during working on this project and the
+          first key learning was the importance of a robust design architecture
+          for the project.I tried to adopt{" "}
+          <a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">
+            Uncle Bob's Clean Architecture principles
+          </a>
+          :
           <Image src="/assets/clean_architecture.jpg" />
           <br />
           Following the diagram the design pattern I followed for this project
-          is the Command Query Request Segregation (CQRS) Pattern(Single DB).
-          Using MediatR to make use of Command/Query Handler Logic and have
-          setup my projects as follows:
+          is the Mediator + Command Query Responsibility Segregation (CQRS)
+          Pattern(Single DB). Using{" "}
+          <a href="https://github.com/jbogard/MediatR">MediatR</a> to make use
+          of Command/Query-Handler Logic and have setup my projects as follows:
           <br />
           <Image src="/assets/LetsChat.png" />
           <br />
