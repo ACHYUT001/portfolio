@@ -39,6 +39,12 @@
   max-height: 190px;
 }
 
+@media (max-width: 650px) {
+  .home__avatar {
+    height: 150px;
+  }
+}
+
 .home__text {
   font-family: itc-avant-garde-gothic-pro;
   font-weight: 500;

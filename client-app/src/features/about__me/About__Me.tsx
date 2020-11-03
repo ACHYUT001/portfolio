@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../footer/Footer";
+import { PageBody } from "../projects/StyledPage";
 
 import "./About__Me.css";
 const About__Me = () => {
@@ -216,7 +217,6 @@ const About__Me = () => {
       </article>
 
       <Footer id="2" page="about_me" />
-
       {/* <div className="aboutme__container u-keyline">
         <div className="l-Footer">
           <div className="l-Footer-col">

@@ -187,7 +187,6 @@ const Projects = () => {
           <Link to={rightArrow.link}>
             <IconButton
               iconProps={{ iconName: "ChromeBackMirrored" }}
-              className={iconClass}
               onClick={() => handleRightClick()}
               // title={leftArrow.name }
               // ariaLabel={leftArrow.name}
@@ -196,23 +195,21 @@ const Projects = () => {
         </TooltipHost>
       </HeroContainer>
 
-      <PageBody>
-        <Switch>
-          <Route exact path={`${match.path}/letschat`}>
-            <LetsChatPage />
-          </Route>
+      <Switch>
+        <Route exact path={`${match.path}/letschat`}>
+          <LetsChatPage />
+        </Route>
 
-          <Route exact path={`${match.path}/amazonclone`}>
-            <AmazonClonePage />
-          </Route>
-          <Route exact path={`${match.path}/portfolio`}>
-            <PortfolioPage />
-          </Route>
-          {/* <Route path={"projects/(.*)"}>
+        <Route exact path={`${match.path}/amazonclone`}>
+          <AmazonClonePage />
+        </Route>
+        <Route exact path={`${match.path}/portfolio`}>
+          <PortfolioPage />
+        </Route>
+        {/* <Route path={"projects/(.*)"}>
             
           </Route> */}
-        </Switch>
-      </PageBody>
+      </Switch>
     </Wrapper>
   );
 };

@@ -6,7 +6,7 @@ import Ticker from "../ticker/Ticker";
 
 const FooterWrapper = styled.div`
   width: 100%;
-  max-width: 90rem;
+  max-width: 90em;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -76,6 +76,8 @@ const LineContainer = styled.div`
 const LineContent = styled.div`
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+  margin-left: 3vw;
+  margin-right: 3vw;
 `;
 
 interface IProps {
