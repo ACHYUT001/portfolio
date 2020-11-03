@@ -101,3 +101,9 @@ export const Com = styled.span`
   color: gray;
   font-weight: 3;
 `;
+
+export const Image = styled.img`
+  width: 100%;
+  max-width: 60ch;
+  object-fit: contain;
+`;

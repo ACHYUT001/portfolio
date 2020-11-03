@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../footer/Footer";
-import { Heading, PageBody, Para, Section } from "./StyledPage";
+import { Heading, Image, PageBody, Para, Section } from "./StyledPage";
 
 const LetsChatPage = () => {
   return (
@@ -16,13 +16,38 @@ const LetsChatPage = () => {
           I took up this project to polish my skills on web development with
           .Net Core, React and Azure. //sparkle this 😊
         </Para>
-        <Heading>Design Pattern</Heading>
+        <Heading>My Learnings</Heading>
         <Para>
+          <h4>Design</h4>
           I learned alot during working on this project and the first key
           learning was the importance of a robust design architecture for the
-          project. The design pattern I followed for this project is the Command
-          Query Request Segregation (CQRS) Pattern. I tried to adopt Uncle Bob's
-          Clean Architecture principles and this diagram explains
+          project.I tried to adopt Uncle Bob's Clean Architecture principles :
+          <Image src="/assets/clean_architecture.jpg" />
+          <br />
+          Following the diagram the design pattern I followed for this project
+          is the Command Query Request Segregation (CQRS) Pattern(Single DB).
+          Using MediatR to make use of Command/Query Handler Logic and have
+          setup my projects as follows:
+          <br />
+          <Image src="/assets/LetsChat.png" />
+          <br />
+          <h4>Features</h4>
+          The features that I had fun implementing in this project are:
+          <ol>
+            <li>
+              Utilizing SignalR to provide Chat feature on the Activiy Page
+            </li>
+            <li>
+              Ability to upload Profile Image from client and storing it in
+              Azure Blob
+            </li>
+            <li>Pagination</li>
+            <li>Mainting a global store for managing application store</li>
+            <li>
+              And my favourite of all serving notifications with React Toasts!
+              😍😍
+            </li>
+          </ol>
         </Para>
 
         <Section>

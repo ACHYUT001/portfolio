@@ -37,11 +37,18 @@
 
 .home__avatar {
   max-height: 190px;
+  margin-top: 2px;
 }
 
 @media (max-width: 650px) {
   .home__avatar {
     height: 150px;
+  }
+}
+
+@media (max-width: 410px) {
+  .home__avatar {
+    height: 120px;
   }
 }
 

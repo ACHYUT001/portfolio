@@ -50,6 +50,10 @@ const Button = styled.button`
     opacity: 1;
     right: 0;
   }
+
+  @media (max-width: 530px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const PageNavButton: React.FC<IProps> = ({ target, name }) => {
