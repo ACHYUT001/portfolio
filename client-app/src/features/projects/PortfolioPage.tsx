@@ -14,20 +14,20 @@ const PortfolioPage = () => {
             Cloud Resume Challenge By Forrest Brazeal
           </a>{" "}
           but overtime I though it'd be best to evolve this into a website where
-          I can show off my projects and thoughts 😉, plus I also needed to
-          learn/practice React Transitions and React Styled Components. This
-          project provied me with the perfect opportunity to do so 🐱‍👤
+          I can share my projects and thoughts 😉, plus I had also planned to
+          explore and practice using transitions and React Styled Components.
+          This project provied me with the perfect opportunity to do so 🐱‍👤.
         </Para>
         <Heading>My Learnings</Heading>
         <Para>
           The key learnings that I'm proud of is the cool corousel I implemented
-          from scratch to protray my projects and the design of this project
-          which is hosted as a Azure Static Website supported by Azure Function
-          to get and update the counter values (stored in a Azure Cosmos DB
-          collection) keeping tabs on number of visitors for each page,
-          displayed using a retro counter ⌛ down below in the footer 👇👇.
-          All-in-all I believe a portfolio website is like an ever-evolving
-          project which will grow as I learn and grow 🐱‍🏍.
+          from scratch to provide a fluid way to switch between pages.This
+          project is hosted as a Azure Static Website supported by Azure
+          Function, which is responsible to get and update the counter values
+          (stored in a Azure Cosmos DB collection) to keep a count on number of
+          visitors for each page, displayed using a retro counter ⌛ down below
+          in the footer 👇👇. All-in-all I believe a portfolio website is like
+          an ever-evolving project which will grow as I learn and grow 🐱‍🏍.
           <br /> I have a few upgrades in mind like:
           <ol>
             <li>Dark Mode/Light Mode toggle</li>
