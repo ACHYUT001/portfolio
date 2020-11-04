@@ -14,7 +14,7 @@ const LetsChatPage = () => {
         </Para>
         <Para>
           I took up this project to polish my skills on web development with
-          .Net Core, React and Azure. //sparkle this 😊
+          .Net Core, React and Azure.
         </Para>
         <Heading>My Learnings</Heading>
         <Para>
