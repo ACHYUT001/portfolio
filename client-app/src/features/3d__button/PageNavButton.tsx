@@ -25,7 +25,7 @@ const Button = styled.button`
   padding: 1em 1em;
   width: 20ch;
   margin: 1em 1em;
-
+  outline: none;
   transition: all 0.5s;
 
   &:hover {
